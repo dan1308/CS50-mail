@@ -1,17 +1,12 @@
 textarea {
     min-height: 400px;
 }
-
-.emailsContainer{
+.mailContainer{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 10px;
     padding-left: 10px;
-    border: 2px solid rgb(74, 178, 209);
-}
-.mailContainer{
-    display: flex;
-    flex-direction: row;
+    border: 2px solid rgb(125, 219, 248);
 }
 .sender{
     margin-right: 20px;
@@ -26,8 +21,15 @@ textarea {
     margin-right: 5px;
     margin-left: 5px;
     text-align: right;
+    float: right;
     color: #737579;
+}
+.emailBody{
+    white-space: pre-wrap;
 }
 .btn-outline-success, .btn-outline-danger {
     margin-right: 10px;
+}
+#compose-body{
+    margin-bottom: 20px;
 }
